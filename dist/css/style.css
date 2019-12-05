@@ -1,28 +1,28 @@
+body{
+  background-image: url(https://thumbs.gfycat.com/DisastrousFreshGilamonster-size_restricted.gif);
+  background-size: cover;
+}
+
 .flex-parent {
-    height: 60vh;
-    background-color: blue;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
+  height: fit-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   
-  .flex-child {
-    height: 20vh;
-    background-color: red;
-    margin: 10px;
-  }
-  
-  #flex-grow {
-    -webkit-box-flex: 1;
-        -ms-flex-positive: 1;
-            flex-grow: 1;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  
-  #flex-grow {
-    -webkit-box-flex: 2;
-        -ms-flex-positive: 2;
-            flex-grow: 2;
-  }
+}
+
+.flex-child {
+  height: 30vh;
+  width: 30vw;
+  background-color: #008cff;
+  margin: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#flex-grow {
+  -webkit-box-flex: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2;
+}
