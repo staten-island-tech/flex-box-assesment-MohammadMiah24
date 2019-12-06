@@ -1,10 +1,11 @@
-
-body{
+body {
     background-image: url(https://thumbs.gfycat.com/DisastrousFreshGilamonster-size_restricted.gif);
     background-size: cover;
   }
   
   .flex-parent {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
     height: fit-content;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -23,6 +24,7 @@ body{
   
   #flex-grow {
     -webkit-box-flex: 2;
-        -ms-flex-positive: 2;
-            flex-grow: 2;
+    -ms-flex-positive: 2;
+    flex-grow: 2;
   }
+  /*# sourceMappingURL=style.css.map */

@@ -1,4 +1,11 @@
-body{
+html {
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
   background-image: url(https://thumbs.gfycat.com/DisastrousFreshGilamonster-size_restricted.gif);
   background-size: cover;
 }
@@ -8,21 +15,24 @@ body{
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  
+  width: 100%;
 }
 
 .flex-child {
   height: 30vh;
-  width: 30vw;
-  background-color: #008cff;
+  width: 100%;
+  background: linear-gradient(rgb(23, 79, 182), rgb(22, 236, 208));
   margin: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  font: italic 7rem "Fira Sans", serif;
 }
 
 #flex-grow {
   -webkit-box-flex: 2;
-      -ms-flex-positive: 2;
-          flex-grow: 2;
+  -ms-flex-positive: 2;
+  flex-grow: 2;
 }

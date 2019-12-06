@@ -3,7 +3,7 @@ body {
   background-size: cover;
 }
 
-.flex-parent {
+.Flex-Parent {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
@@ -12,7 +12,7 @@ body {
   display: flex;
 }
 
-.flex-child {
+.Flex-Child {
   height: 30vh;
   width: 30vw;
   background-color: #008cff;
@@ -20,6 +20,13 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  flex-wrap: wrap;
+  z-index: 1;
+}
+
+.Flex-Child1{
+  height: 70vh;
+  z-index: 2;
 }
 
 #flex-grow {
