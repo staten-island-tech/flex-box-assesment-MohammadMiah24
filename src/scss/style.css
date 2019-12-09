@@ -1,37 +1,14 @@
-body {
-  background-image: url(https://thumbs.gfycat.com/DisastrousFreshGilamonster-size_restricted.gif);
-  background-size: cover;
-}
-
-.Flex-Parent {
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.Flex-Child {
+body #flex-child {
   height: 30vh;
-  width: 30vw;
-  background-color: #008cff;
+  width: 100%;
+  background: primary;
   margin: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
-  z-index: 1;
 }
 
-.Flex-Child1{
-  height: 70vh;
-  z-index: 2;
-}
-
-#flex-grow {
-  -webkit-box-flex: 2;
-  -ms-flex-positive: 2;
-  flex-grow: 2;
+body #flex-child1 {
+  height: 60vh;
 }
 /*# sourceMappingURL=style.css.map */

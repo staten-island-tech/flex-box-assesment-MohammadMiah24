@@ -1,30 +1,24 @@
+$colors: (
+    primary: #078eff,
+    accent: #fff,
+);
+
+@function color($colors-name) {
+    @return map-get($color, $color-name )
+};
+
+
 body {
-    background-image: url(https://thumbs.gfycat.com/DisastrousFreshGilamonster-size_restricted.gif);
-    background-size: cover;
-  }
-  
-  .flex-parent {
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
-    height: fit-content;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  
-  .flex-child {
-    height: 30vh;
-    width: 30vw;
-    background-color: #008cff;
-    margin: 20px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  
-  #flex-grow {
-    -webkit-box-flex: 2;
-    -ms-flex-positive: 2;
-    flex-grow: 2;
-  }
-  /*# sourceMappingURL=style.css.map */
+    #flex-child {
+        height: 30vh;
+        width: 100%;
+        background-color: color(pirmary);
+        margin: 20px;
+        display: flex;
+
+    }
+
+    #flex-child1 {
+        height: 60vh;
+    }
+}

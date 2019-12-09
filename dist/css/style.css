@@ -6,9 +6,10 @@ html {
 }
 
 body {
-  background-image: url(https://thumbs.gfycat.com/DisastrousFreshGilamonster-size_restricted.gif);
+  background: url(http://bestanimations.com/Nature/Water/wave-ocean-animated-gif-8.gif);
   background-size: cover;
 }
+
 
 .flex-parent {
   height: fit-content;
@@ -18,18 +19,19 @@ body {
   width: 100%;
 }
 
-.flex-child {
-  height: 30vh;
-  width: 100%;
-  background: linear-gradient(rgb(23, 79, 182), rgb(22, 236, 208));
-  margin: 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font: italic 7rem "Fira Sans", serif;
+#flex-child {
+  font-size: 2.5em;
+    text-transform: uppercase;
+    color: honeydew;
+    text-align: center;
+    font: italic 7rem "Fira Sans", serif;
+    border: 0.9rem solid;
+    border-color: #32a1ce;
+    background-color: royalblue;
+    background: linear-gradient(rgb(23, 79, 182), rgb(22, 236, 208));
 }
+
+
 
 #flex-grow {
   -webkit-box-flex: 2;
