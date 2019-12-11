@@ -1,24 +1,30 @@
 $colors: (
-    primary: #078eff,
-    accent: #fff,
+  primary: #078eff,
+  accent: #fff
 );
 
 @function color($colors-name) {
-    @return map-get($color, $color-name )
-};
-
+  @return map-get($color, $color-name);
+}
 
 body {
-    #flex-child {
-        height: 30vh;
-        width: 100%;
-        background-color: color(pirmary);
-        margin: 20px;
-        display: flex;
+  #flex-child {
+    display: flex;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    color: honeydew;
+    text-align: center;
+    font: italic 7rem "Fira Sans", serif;
+    border: 0.9rem solid;
+    border-color: color(primary);
+    background-color: color(primary);
+    background: linear-gradient color(primary), color(accent);
+    width: 100%;
+    z-index: -1;
+  }
 
-    }
-
-    #flex-child1 {
-        height: 60vh;
-    }
+  #flex-text {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }

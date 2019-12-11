@@ -1,14 +1,26 @@
 body #flex-child {
-  height: 30vh;
-  width: 100%;
-  background: primary;
-  margin: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  font-size: 2.5em;
+  text-transform: uppercase;
+  color: honeydew;
+  text-align: center;
+  font: italic 7rem "Fira Sans", serif;
+  border: 0.9rem solid;
+  border-color: #32a1ce;
+  background-color: royalblue;
+  background: -webkit-gradient(linear, left top, left bottom, from(#174fb6), to(#16ecd0));
+  background: linear-gradient(#174fb6, #16ecd0);
+  width: 100%;
+  z-index: -1;
 }
 
-body #flex-child1 {
-  height: 60vh;
+body #flex-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 /*# sourceMappingURL=style.css.map */

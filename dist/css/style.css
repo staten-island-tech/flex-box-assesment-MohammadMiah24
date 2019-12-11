@@ -19,7 +19,7 @@ body {
   width: 100%;
 }
 
-#flex-child {
+.flex-child {
   font-size: 2.5em;
     text-transform: uppercase;
     color: honeydew;
@@ -29,6 +29,13 @@ body {
     border-color: #32a1ce;
     background-color: royalblue;
     background: linear-gradient(rgb(23, 79, 182), rgb(22, 236, 208));
+    width: 100%;
+    z-index: -1;
+}
+
+.flex-text {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 
