@@ -1,3 +1,11 @@
+.header {
+  background-color: #008cff;
+}
+
+body {
+  background: url(http://bestanimations.com/Nature/Water/wave-ocean-animated-gif-8.gif);
+}
+
 body #flex-child {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -9,14 +17,13 @@ body #flex-child {
   font: italic 7rem "Fira Sans", serif;
   border: 0.9rem solid;
   border-color: #32a1ce;
-  background-color: royalblue;
   background: -webkit-gradient(linear, left top, left bottom, from(#174fb6), to(#16ecd0));
   background: linear-gradient(#174fb6, #16ecd0);
   width: 100%;
   z-index: -1;
 }
 
-body #flex-text {
+body #flex-two {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

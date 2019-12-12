@@ -1,13 +1,14 @@
-$colors: (
-  primary: #078eff,
-  accent: #fff
-);
+@import "./header";
+@import "./fonts";
+@import "./colors";
 
 @function color($colors-name) {
   @return map-get($color, $color-name);
 }
 
 body {
+    background: url(http://bestanimations.com/Nature/Water/wave-ocean-animated-gif-8.gif);
+
   #flex-child {
     display: flex;
     font-size: 2.5em;
@@ -16,14 +17,13 @@ body {
     text-align: center;
     font: italic 7rem "Fira Sans", serif;
     border: 0.9rem solid;
-    border-color: color(primary);
-    background-color: color(primary);
-    background: linear-gradient color(primary), color(accent);
+    border-color: color(border);
+    background: linear-gradient(rgb(23, 79, 182), rgb(22, 236, 208));
     width: 100%;
     z-index: -1;
   }
 
-  #flex-text {
+  #flex-two {
     display: flex;
     flex-wrap: wrap;
   }

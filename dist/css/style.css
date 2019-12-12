@@ -1,16 +1,10 @@
-html {
-  margin: 0;
-  padding: 0;
-  font-size: 62.5%;
-  box-sizing: border-box;
-}
 
 body {
   background: url(http://bestanimations.com/Nature/Water/wave-ocean-animated-gif-8.gif);
   background-size: cover;
 }
-
-
+ 
+ 
 .flex-parent {
   height: fit-content;
   display: -webkit-box;
@@ -18,7 +12,7 @@ body {
   display: flex;
   width: 100%;
 }
-
+ 
 .flex-child {
   font-size: 2.5em;
     text-transform: uppercase;
@@ -32,16 +26,18 @@ body {
     width: 100%;
     z-index: -1;
 }
-
+ 
 .flex-text {
   display: flex;
   flex-wrap: wrap;
 }
-
-
-
+ 
+ 
+ 
 #flex-grow {
   -webkit-box-flex: 2;
   -ms-flex-positive: 2;
   flex-grow: 2;
 }
+ 
+
