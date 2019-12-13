@@ -4,3 +4,7 @@ $colors: (
   body: #fff,
   bordor: #32a1ce,
 );
+
+@function color($colors-name) {
+  @return map-get($color, $color-name);
+}
