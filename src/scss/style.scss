@@ -9,23 +9,23 @@
 body {
   background: url(http://bestanimations.com/Nature/Water/wave-ocean-animated-gif-8.gif);
   background-size: cover;
+}
 
-  #flex-child {
-    display: flex;
-    font-size: 2.5em;
-    text-transform: uppercase;
-    color: honeydew;
-    text-align: center;
-    font: italic 7rem "Fira Sans", serif;
-    border: 0.9rem solid;
-    border-color: color(border);
-    background: linear-gradient(rgb(23, 79, 182), rgb(22, 236, 208));
-    width: 100%;
-    z-index: -1;
-  }
+.Flex-Child {
+  display: flex;
+  font-size: 2.5em;
+  text-transform: uppercase;
+  color: honeydew;
+  text-align: center;
+  font: italic 7rem "Fira Sans", serif;
+  border: 0.9rem solid;
+  border-color: color(border);
+  background: linear-gradient(rgb(10, 12, 17), rgb(22, 236, 208));
+  width: 100%;
+  z-index: -1;
+}
 
-  #flex-two {
-    display: flex;
-    flex-wrap: wrap;
-  }
+.Flex-Two {
+  display: flex;
+  justify-content: center;
 }

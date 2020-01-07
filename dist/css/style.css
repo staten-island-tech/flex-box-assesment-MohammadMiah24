@@ -26,18 +26,10 @@ body {
     width: 100%;
     z-index: -1;
 }
- 
+
 .flex-two {
   display: flex;
-  flex-wrap: wrap;
-}
- 
- 
- 
-#flex-grow {
-  -webkit-box-flex: 2;
-  -ms-flex-positive: 2;
-  flex-grow: 2;
+  justify-content: center;
 }
  
 
